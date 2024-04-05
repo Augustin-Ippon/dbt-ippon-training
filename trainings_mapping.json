@@ -1,0 +1,30 @@
+{
+  "complete": {
+    "1": "dbtBase",
+    "2": "modularity",
+    "3": "docTest",
+    "4": "jinja1",
+    "5": "buffer",
+    "6": "integrationTestsDeployment",
+    "7": "incremental",
+    "8": "hooksExports",
+    "9": "commonMonitor",
+    "10": "python",
+    "11": "streams",
+    "12": "deeper"
+  },
+  "betclic": {
+    "1": "dbtBase",
+    "2": "modularity",
+    "3": "docTest",
+    "4": "jinja1",
+    "5": "buffer",
+    "6": "integrationTestsDeployment",
+    "7": "incremental",
+    "8": "commonMonitor",
+    "9": "hooksExports",
+    "10": "streams",
+    "11": "python",
+    "12": "deeper"
+  }
+}
