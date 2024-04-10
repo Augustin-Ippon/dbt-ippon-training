@@ -1,0 +1,19 @@
+version: 2
+
+sources:
+  - name: source_restaurants
+    database: DB_DBT_AWATINE_DEV
+    schema: SOURCE
+
+    tables:
+      - name: ORDERS
+        description: orders
+        columns: 
+          - name: identifier
+            description: Order ID
+            tests:
+              - unique: 
+                  severity: warn
+              
+      - name: RESTAURANTS
+      - name: dishes

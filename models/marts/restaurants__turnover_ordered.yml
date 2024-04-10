@@ -1,0 +1,16 @@
+version: 2
+
+models:
+  - name: restaurants__turnover_ordered
+    description: Table des plats commandes
+    columns: 
+      - name: turnover
+        description: colonne chiffre d'affaire
+        tests:
+          - column_is_positiv
+          - unique
+
+      - name: name
+        description: name
+        tests:
+          - unique
